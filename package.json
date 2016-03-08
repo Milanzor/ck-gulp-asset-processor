@@ -1,0 +1,23 @@
+{
+  "name": "asset-compiler",
+  "version": "0.0.1",
+  "description": "Asset compiler for scss and js",
+  "main": "gulpfile.js",
+  "author": "",
+  "license": "ISC",
+  "scss-compile-options": {
+        "/mnt/data/sites/jdb.codingkorner.com/public_html/css/src/style.scss": {
+            "targetFile": "/mnt/data/sites/jdb.codingkorner.com/public_html/css/main.css",
+            "outputStyle": "compressed",
+            "additionalOptions": "--sourceMapEmbed"
+        }
+    },
+  "devDependencies": {
+    "gulp-clean-css": "^2.0.3",
+    "gulp-concat": "^2.6.0",
+    "gulp-shell": "^0.5.2",
+    "node-sass": "^3.4.2",
+    "uglifyjs": "^2.4.10"
+  }
+}
+
