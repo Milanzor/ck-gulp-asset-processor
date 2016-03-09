@@ -2,11 +2,11 @@ var gulp = require('gulp'),
     shell = require('gulp-shell'),
     concat = require('gulp-concat'),
     cleanCSS = require('gulp-clean-css'),
-    package = require('./package.json');
+    cksettings = require('./settings.json');
 
-var vendorJsCombines = package['js-vendor-combine-dirs'] || {};
-var scssFileOptions = package['scss-compile-options'] || {};
-var vendorCssCombines = package['css-vendor-combine-dirs'] || {};
+var vendorJsCombines = cksettings['js-vendor-combine-dirs'] || {};
+var scssFileOptions = cksettings['scss-compile-options'] || {};
+var vendorCssCombines = cksettings['css-vendor-combine-dirs'] || {};
 
 
 // JS VENDORS

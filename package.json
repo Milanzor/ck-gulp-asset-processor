@@ -5,13 +5,6 @@
   "main": "gulpfile.js",
   "author": "",
   "license": "ISC",
-  "scss-compile-options": {
-        "/mnt/data/sites/jdb.codingkorner.com/public_html/css/src/style.scss": {
-            "targetFile": "/mnt/data/sites/jdb.codingkorner.com/public_html/css/main.css",
-            "outputStyle": "compressed",
-            "additionalOptions": "--sourceMapEmbed"
-        }
-    },
   "devDependencies": {
     "gulp-clean-css": "^2.0.3",
     "gulp-concat": "^2.6.0",
